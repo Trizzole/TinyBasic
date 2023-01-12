@@ -1,0 +1,11 @@
+10 print "Enter a starting number:"
+20 input a
+30 print "Enter an ending number:"
+40 input b
+50 print "Sum from start to end:"
+'(abs(b-a)+1) accounts for the case b<a, opposed to (b-a+1)'
+'will still return sum from all numbers between a and b inclusive'
+'works for negative numbers too'
+'Does not account for non-integer numbers well, gives meaningless output'
+60 print ((abs(b-a)+1)*(b+a)/2)
+70 end
